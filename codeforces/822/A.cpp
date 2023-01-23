@@ -1,20 +1,15 @@
-#include <bits/stdc++.h>
-#define long long ll;
-
+#include <iostream>
+#define ll long long
 using namespace std;
 
-int fact (int a) {
-    int ans = 1;
-    while (a) {
-        ans *= a--;
-    }
-    return ans;
-}
-
 int main() {
-    int a, b;
-    cin >> a >> b;
-    a = min(a, b);
-    cout << fact(a);
-    return 0;
+    ll A[13];A[0]=1;
+    for(int i=1;i<12;i++){
+        A[i]=A[i-1]*(i+1);
+    }
+    ll a,b,c; cin>>a>>b;
+    c=min(a,b);
+    cout<<A[c-1];
+    
+    
 }
