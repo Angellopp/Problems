@@ -67,6 +67,24 @@
     ],
     "timestamp": "Jan/22/2023 19:51"
   },
+  "CF190886857": {
+    "contest_id": 1790,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces\\1790\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Taisia and Dice",
+    "problem_url": "https://codeforces.com/contest/1790/problem/B",
+    "submission_id": "CF190886857",
+    "submission_url": "https://codeforces.com/contest/1790/submission/190886857",
+    "tags": [
+      "greedy",
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jan/27/2023 12:48"
+  },
   "CF190892218": {
     "contest_id": 1790,
     "language": "C++17 (GCC 7-32)",
