@@ -67,6 +67,22 @@
     ],
     "timestamp": "Jan/22/2023 19:51"
   },
+  "CF198406051": {
+    "contest_id": 1807,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces\\1807\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Plus or Minus",
+    "problem_url": "https://codeforces.com/contest/1807/problem/A",
+    "submission_id": "CF198406051",
+    "submission_url": "https://codeforces.com/contest/1807/submission/198406051",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Mar/20/2023 13:50"
+  },
   "CF198414507": {
     "contest_id": 1807,
     "language": "C++17 (GCC 7-32)",
