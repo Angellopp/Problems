@@ -1,10 +1,9 @@
-#include <bits/stdc++.h>
-#define ll long long
+#include<bits/stdc++.h>
 using namespace std;
-int main() {
-    int n;
-    cin >> n;
-    if(n % 2 or n == 2) cout << "NO\n";
-    else  cout << "YES\n";
-    return 0;
+typedef long long ll;
+int main(){
+    cin.tie(0); ios::sync_with_stdio(false);
+    int n; cin>>n;
+    if(n==2){cout<<"NO";return 0;}
+    (n%2)?cout<<"NO":cout<<"YES";
 }
