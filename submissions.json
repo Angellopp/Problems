@@ -67,6 +67,23 @@
     ],
     "timestamp": "Jan/22/2023 19:51"
   },
+  "CF205031907": {
+    "contest_id": 879,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces\\879\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Table Tennis",
+    "problem_url": "https://codeforces.com/contest/879/problem/B",
+    "submission_id": "CF205031907",
+    "submission_url": "https://codeforces.com/contest/879/submission/205031907",
+    "tags": [
+      "data structures",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "May/07/2023 18:54"
+  },
   "CF205035223": {
     "contest_id": 520,
     "language": "C++17 (GCC 7-32)",
