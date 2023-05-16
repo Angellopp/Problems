@@ -67,6 +67,23 @@
     ],
     "timestamp": "Jan/22/2023 19:51"
   },
+  "CF206160057": {
+    "contest_id": 593,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces\\593\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "2Char",
+    "problem_url": "https://codeforces.com/contest/593/problem/A",
+    "submission_id": "CF206160057",
+    "submission_url": "https://codeforces.com/contest/593/submission/206160057",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "May/16/2023 18:04"
+  },
   "CF206993013": {
     "contest_id": 1705,
     "language": "C++17 (GCC 7-32)",
