@@ -1,26 +1,28 @@
-#include <bits/stdc++.h>
-typedef long long ll; 
+#include <iostream>
+#include <algorithm>
+
 using namespace std;
-int N = 2e5;
 
 int main() {
-    ios::sync_with_stdio(0); cin.tie(0);
-    int tt; cin >> tt;
-    int n, tmp, lst, rpta;
+	ios::sync_with_stdio(false);
+	cin.tie(0);
+	cout.tie(0);
+	int t, n, tmp, lst, pls;
 	bool flg = false;
-	while(tt--) {
+	cin >> t;
+	while(t--) {
 		cin >> n >> lst;
 		flg = false;
 		for(int i = 2; i <= n; ++i) {
 			cin >> tmp;
 			if(abs(tmp - lst) >= 2) {
-				rpta = i;
+				pls = i;
 				flg = true;
 			}
 			lst = tmp;
 		}
-		if(flg) cout << "YES\n" << rpta - 1 << " " << rpta << "\n";
+		if(flg) cout << "YES\n" << pls - 1 << ' ' << pls << '\n';
 		else cout << "NO\n";
 	}
-    
+	return 0;
 }
