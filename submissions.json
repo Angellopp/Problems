@@ -1,4 +1,22 @@
 {
+  "CF207796196": {
+    "contest_id": 124,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces\\124\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Permutations",
+    "problem_url": "https://codeforces.com/contest/124/problem/B",
+    "submission_id": "CF207796196",
+    "submission_url": "https://codeforces.com/contest/124/submission/207796196",
+    "tags": [
+      "brute force",
+      "combinatorics",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "May/29/2023 15:08"
+  },
   "CF207882706": {
     "contest_id": 910,
     "language": "C++17 (GCC 7-32)",
