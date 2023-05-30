@@ -1,4 +1,20 @@
 {
+  "CF207884346": {
+    "contest_id": 887,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces\\887\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Div. 64",
+    "problem_url": "https://codeforces.com/contest/887/problem/A",
+    "submission_id": "CF207884346",
+    "submission_url": "https://codeforces.com/contest/887/submission/207884346",
+    "tags": [
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "May/30/2023 11:56"
+  },
   "CF207886129": {
     "contest_id": 660,
     "language": "C++17 (GCC 7-32)",
