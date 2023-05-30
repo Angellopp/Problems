@@ -1,4 +1,21 @@
 {
+  "CF207886613": {
+    "contest_id": 888,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces\\888\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Local Extrema",
+    "problem_url": "https://codeforces.com/contest/888/problem/A",
+    "submission_id": "CF207886613",
+    "submission_url": "https://codeforces.com/contest/888/submission/207886613",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "May/30/2023 12:20"
+  },
   "CF207887604": {
     "contest_id": 510,
     "language": "C++17 (GCC 7-32)",
