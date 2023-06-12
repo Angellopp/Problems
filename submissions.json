@@ -1,4 +1,20 @@
 {
+  "CF209443060": {
+    "contest_id": 1841,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces\\1841\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Keep it Beautiful",
+    "problem_url": "https://codeforces.com/contest/1841/problem/B",
+    "submission_id": "CF209443060",
+    "submission_url": "https://codeforces.com/contest/1841/submission/209443060",
+    "tags": [
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Jun/12/2023 10:38"
+  },
   "CF211377137": {
     "contest_id": 1843,
     "language": "C++17 (GCC 7-32)",
