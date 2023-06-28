@@ -1,4 +1,22 @@
 {
+  "CF211377137": {
+    "contest_id": 1843,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces\\1843\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Sasha and Array Coloring",
+    "problem_url": "https://codeforces.com/contest/1843/problem/A",
+    "submission_id": "CF211377137",
+    "submission_url": "https://codeforces.com/contest/1843/submission/211377137",
+    "tags": [
+      "greedy",
+      "sortings",
+      "two pointers",
+      "*800"
+    ],
+    "timestamp": "Jun/28/2023 18:21"
+  },
   "CF211566345": {
     "contest_id": 1843,
     "language": "C++17 (GCC 7-32)",
