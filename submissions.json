@@ -1,4 +1,23 @@
 {
+  "CF211664424": {
+    "contest_id": 1843,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces\\1843\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Sum in Binary Tree",
+    "problem_url": "https://codeforces.com/contest/1843/problem/C",
+    "submission_id": "CF211664424",
+    "submission_url": "https://codeforces.com/contest/1843/submission/211664424",
+    "tags": [
+      "bitmasks",
+      "combinatorics",
+      "math",
+      "trees",
+      "*800"
+    ],
+    "timestamp": "Jun/30/2023 18:22"
+  },
   "CF211773959": {
     "contest_id": 1679,
     "language": "C++17 (GCC 7-32)",
