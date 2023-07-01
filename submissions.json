@@ -1,4 +1,23 @@
 {
+  "CF211773959": {
+    "contest_id": 1679,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces\\1679\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "AvtoBus",
+    "problem_url": "https://codeforces.com/contest/1679/problem/A",
+    "submission_id": "CF211773959",
+    "submission_url": "https://codeforces.com/contest/1679/submission/211773959",
+    "tags": [
+      "brute force",
+      "greedy",
+      "math",
+      "number theory",
+      "*900"
+    ],
+    "timestamp": "Jul/01/2023 18:22"
+  },
   "CF211774692": {
     "contest_id": 1780,
     "language": "C++17 (GCC 7-32)",
