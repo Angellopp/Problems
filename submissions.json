@@ -1,4 +1,22 @@
 {
+  "CF216601790": {
+    "contest_id": 822,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces\\822\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "I'm bored with life",
+    "problem_url": "https://codeforces.com/contest/822/problem/A",
+    "submission_id": "CF216601790",
+    "submission_url": "https://codeforces.com/contest/822/submission/216601790",
+    "tags": [
+      "implementation",
+      "math",
+      "number theory",
+      "*800"
+    ],
+    "timestamp": "Jul/31/2023 10:50"
+  },
   "CF216604074": {
     "contest_id": 755,
     "language": "C++17 (GCC 7-32)",
