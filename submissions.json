@@ -1,4 +1,21 @@
 {
+  "CF227925147": {
+    "contest_id": 1881,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1881\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Perfect Square",
+    "problem_url": "https://codeforces.com/contest/1881/problem/C",
+    "submission_id": "CF227925147",
+    "submission_url": "https://codeforces.com/contest/1881/submission/227925147",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Oct/12/2023 11:52"
+  },
   "CF228173567": {
     "contest_id": 1881,
     "language": "C++20 (GCC 11-64)",
