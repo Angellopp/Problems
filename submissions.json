@@ -1,4 +1,20 @@
 {
+  "CF229643835": {
+    "contest_id": 271,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\271\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Beautiful Year",
+    "problem_url": "https://codeforces.com/contest/271/problem/A",
+    "submission_id": "CF229643835",
+    "submission_url": "https://codeforces.com/contest/271/submission/229643835",
+    "tags": [
+      "brute force",
+      "*800"
+    ],
+    "timestamp": "Oct/25/2023 00:17"
+  },
   "CF229646338": {
     "contest_id": 271,
     "language": "C++20 (GCC 11-64)",

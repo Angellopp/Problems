@@ -25,16 +25,9 @@ typedef priority_queue<int, vi, greater<int>> pq_min;
 const int maxn = 2e5;
 const u32 MOD = 1000000007;
 
-int a[10]{};
-
 bool v(int n) {
     string s = to_string(n);
-    for (int i = 0; i < 10; i++) {a[i] = 0;}
-    for (int i = 0; i < 4; i++) {
-        if (a[s[i] - '0'] != 0) {return false;}  
-        a[s[i] - '0']++;
-    }
-    return true;
+    return s[0] != s[1] and s[1] != s[2] and s[2] != s[3] and s[3] != s[4] and s[0] != s[2] and s[1] != s[3] and s[0] != s[3];
 }
 int main(){ 
     fast_io;
