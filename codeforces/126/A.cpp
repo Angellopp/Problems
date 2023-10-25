@@ -29,12 +29,13 @@ const u32 MOD = 1000000007;
 
 int main(){ 
     fast_io;
-    int t1, t2, x1, x2, t0, y1, y2;
+    int t1, t2, x1, x2, t0, y1, y2, ma = 0, ma_y1;
     cin >> t1 >> t2 >> x1 >> x2 >> t0;
     pii difmin = {maxn + 1, 1};
     int tt1 = (t1 - t0);
     int tt2 = (t2 - t0);
     ll i, j, jmin = x2, imin = 0;
+    // cout << tt1 << " " << tt2 << "\n";
     if (tt2 == 0 or tt1 == 0) {
         if(tt1 == 0) {imin = x1; jmin = 0;}
         if(tt2 == 0) {imin = 0; jmin = x2;}
@@ -43,12 +44,19 @@ int main(){
         return 0;
     }
     for (i = x1; i >= 0; i--) {
-        j = (((-tt1*i) + tt2 -1)/tt2);
-        // j = ceil((dd)(-tt1*i)/tt2);
+        j = ceil((dd)(-tt1*i)/tt2);
+        // else {
+            // if (tt1 )imin = 0 ; jmin = x2; break;}
+        // cout << "i: " << i << " j: " << j << endl;
+        // cout << "(tt1*i + tt2*j) * difmin.S " << (tt1*i + tt2*j) * difmin.S << " (i + j): * difmin.F " << (i + j) * difmin.F << "\n";  
         if(j <= x2 and (tt1*i + tt2*j) * difmin.S < (i + j) * difmin.F) {
             difmin = {tt1*i + tt2*j,i+j};
             jmin = j; imin = i;
+            // cout << difmin.F << " " << imin << " " << jmin << "\n";
         }
+
+
+
     }
     cout << imin << " " << jmin << "\n";
     return 0;
