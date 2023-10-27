@@ -49,7 +49,6 @@ int main(){
     int mcd = a[0];
     for (int i = 1; i < n; i++ ){
         mcd = __gcd(a[i], mcd);
-        if(mcd == 1) {break;}
     }
     if(mcd != 1) {cout << "-1\n"; return 0;}
 
