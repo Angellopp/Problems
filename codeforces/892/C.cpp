@@ -70,7 +70,7 @@ int main(){
         cout << n + 1 - unos << "\n"; 
     }
     else {
-        cout << n + distmin - 1 -unos<< "\n";
+        (distmin == 2e4) ? cout << "-1\n" : cout << n + distmin - 1 -unos<< "\n";
     }
     return 0;
 }

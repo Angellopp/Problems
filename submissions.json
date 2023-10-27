@@ -1,4 +1,20 @@
 {
+  "CF229941691": {
+    "contest_id": 892,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\892\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Pride",
+    "problem_url": "https://codeforces.com/contest/892/problem/C",
+    "submission_id": "CF229941691",
+    "submission_url": "https://codeforces.com/contest/892/submission/229941691",
+    "tags": [
+      "greedy",
+      "*1500"
+    ],
+    "timestamp": "Oct/26/2023 19:17"
+  },
   "CF229941718": {
     "contest_id": 892,
     "language": "C++20 (GCC 11-64)",
