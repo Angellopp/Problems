@@ -1,4 +1,21 @@
 {
+  "CF229944268": {
+    "contest_id": 252,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\252\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Little Xor",
+    "problem_url": "https://codeforces.com/contest/252/problem/A",
+    "submission_id": "CF229944268",
+    "submission_url": "https://codeforces.com/contest/252/submission/229944268",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Oct/26/2023 20:18"
+  },
   "CF229946412": {
     "contest_id": 304,
     "language": "C++20 (GCC 11-64)",
