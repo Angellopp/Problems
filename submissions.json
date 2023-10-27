@@ -1,4 +1,21 @@
 {
+  "CF230091157": {
+    "contest_id": 877,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\877\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Nikita and string",
+    "problem_url": "https://codeforces.com/contest/877/problem/B",
+    "submission_id": "CF230091157",
+    "submission_url": "https://codeforces.com/contest/877/submission/230091157",
+    "tags": [
+      "brute force",
+      "dp",
+      "*1500"
+    ],
+    "timestamp": "Oct/27/2023 17:48"
+  },
   "CF230440730": {
     "contest_id": 614,
     "language": "C++20 (GCC 11-64)",
