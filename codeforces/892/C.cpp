@@ -55,17 +55,23 @@ int main(){
 
     if (n == 1 and a[0] == 1) {cout << "0\n"; return 0;}
     
-    int distmin = 2e4;
+    int aux, distmin = 2e4;
     bool ff = false;
     for (int i = 0; i < n; i++) {
         for (int j = i+1; j < n; j++) {
-            mcd = __gcd(a[i], a[j]);
-            if (mcd == 1) {
+            // distmin = min(distmin, obtun(a[i], a[j]));
+            aux = __gcd(a[i], a[j]);
+            if (aux == 1) {
                 distmin = min(distmin, j - i);
                 ff = true;
             }
         }
     }
-    (!ff) ? cout << n + 1 - unos << "\n" : cout << n + distmin - 1 -unos<< "\n";
+    if (!ff) {
+        cout << n + 1 - unos << "\n"; 
+    }
+    else {
+        cout << n + distmin - 1 -unos<< "\n";
+    }
     return 0;
 }
