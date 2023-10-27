@@ -29,8 +29,31 @@ const u32 MOD = 1000000007;
 
 int main(){ 
     fast_io;
-    int n, ans = 0;
+    int n;
     cin >> n;
+    // cout << n;
+    // int sqr = sqrt(n);
+    // for (int i = 1; i <= 100; i++) {
+    //     sq[i*i] = 1;
+    // }
+    // for (int j: sq) {
+    //     cout << j << " ";
+    // }
+    int ans = 0;
+    // for (int i = 1; i <= n; i++) {
+    //     for(int j = i; j <= n; j++) {
+    //         if((n*n >= i*i + j*j) and sq[i*i + j*j]) ans++;
+    //     }
+    // }
+    // cout << ans << "\n";
+    
+    // for (int i = 1; i <= 2*n; i++) {
+    //     for(int j = 1; i != j, j <= 2*n; j++) {
+    //         if (0 < (j*j-i*i) and (j*j-i*i) <= n and (2*i*j) <= n and (j*j+i*i) <= n) {ans++;
+    //         cout << (j*j-i*i) << " " << 2*i*j << " " << (j*j+i*i) << "\n";
+    //         }
+    //     }
+    // }
     for (int i = 1; i <= n; i++) {
         for(int j = i + 1; j <= n; j++) {
             int k = i*i + j*j;
