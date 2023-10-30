@@ -1,4 +1,22 @@
 {
+  "CF230476705": {
+    "contest_id": 233,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\233\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Non-square Equation",
+    "problem_url": "https://codeforces.com/contest/233/problem/B",
+    "submission_id": "CF230476705",
+    "submission_url": "https://codeforces.com/contest/233/submission/230476705",
+    "tags": [
+      "binary search",
+      "brute force",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Oct/30/2023 04:55"
+  },
   "CF230611331": {
     "contest_id": 1454,
     "language": "C++20 (GCC 11-64)",
