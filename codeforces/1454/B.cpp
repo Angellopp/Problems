@@ -32,8 +32,8 @@ int main(){
     cin >> tt;
     int n;
     vi v(maxn);
-    vi f(maxn  + 1);
     while (tt--) {
+        vi f(maxn  + 1);
         cin >> n;
         int ans = maxn + 1;
         for (int i = 0; i < n; i++) {
@@ -55,9 +55,6 @@ int main(){
             }
         }
         else cout << -1 << "\n";
-        for (int i = 0; i < n; i++) {
-            f[v[i]] = 0;
-        }
     }
     return 0;
 }
