@@ -34,24 +34,26 @@ int main(){
     vi v(maxn);
     vi f(maxn  + 1);
     while (tt--) {
-        
         cin >> n;
         int ans = maxn + 1;
         for (int i = 0; i < n; i++) {
             cin >> v[i];
             f[v[i]]++;
         }
-        int ind = 0;
         for (int i = 0; i < n; i++) {
             if(f[v[i]] == 1) {
-                if(ans > v[i]) {
-                    ans = v[i];
-                    ind = i+1;
+                ans = min (ans, v[i]);
+            }
+        }
+        // cout << ans;
+        if (ans != maxn + 1) {
+            for (int i = 0; i < n; i++) {
+                if (v[i] == ans) {
+                    cout << i + 1 << "\n";
+                    break;
                 }
             }
         }
-        if (ans != maxn + 1)
-            cout << ind << "\n";
         else cout << -1 << "\n";
         for (int i = 0; i < n; i++) {
             f[v[i]] = 0;
