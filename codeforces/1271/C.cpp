@@ -33,15 +33,24 @@ int sig(int n) {
 
 int main(){ 
     fast_io;
+    int a[3][3]{};
     int n, x, y, i, j;
     cin >> n >> x >> y;
-    int b[4]{}, max = 0, i_max = 0;
     while (n--){
         cin >> i >> j;
-        if (x-i) b[1 + sig(x - i)]++;
-        if (y-j) b[2 - sig(y - j)]++;
-    } 
+        a[1 + sig(x - i)][1]++;
+        a[1][1 + sig(y - j)]++;
+    }
 
+    // for (int i = 0; i < 3; i++) {
+    //     for (int j = 0; j < 3; j++) {
+    //         cout << a[i][j] << " ";
+    //     }
+    //     cout << endl;
+    // }
+
+    int b[4]{}, max = 0, i_max = 0;
+    b[0] = a[0][1]; b[1] = a[1][2]; b[2] = a[2][1]; b[3] = a[1][0];
     for(int i = 0; i< 4; i++) {
         if (b[i] > max) {
             max = b[i];
@@ -50,5 +59,9 @@ int main(){
     }
     (i_max % 2) ? y += sig(i_max - 2) : x += sig(1 -i_max);
     cout << max << "\n" << x << " " << y << endl;
+    // 0 -> x+1 << y  << endl;
+    // 1 -> x << y - 1 << endl;
+    // 2 -> x-1 << y << endl;
+    // 3 -> x << y + 1 << endl;
     return 0;
 }
