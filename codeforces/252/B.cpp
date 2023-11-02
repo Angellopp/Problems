@@ -24,25 +24,25 @@ typedef priority_queue<int, vi, greater<int>> pq_min;
 
 const int maxn = 2e5;
 const u32 MOD = 1000000007;
-// set <int> s;
+vi v(maxn);
+set <int> s;
 // map <int, int> m;
 
 int main(){ 
     fast_io;
     int n;
     cin >> n;
-    vi v(n);
     // int imin = 0, min = 1e9;
     // int imax = 0, max = 0;
 
     for (int i = 0; i < n; i++) {
         cin >> v[i];
-        // s.insert(v[i]);
+        s.insert(v[i]);
         // m[v[i]] = i;
     }
 
 
-    if (n <= 2){
+    if (s.size() == 1 or n == 2){
         cout << -1 << "\n";
         return 0;
     }

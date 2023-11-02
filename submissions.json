@@ -1,4 +1,21 @@
 {
+  "CF230924876": {
+    "contest_id": 252,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\252\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Unsorting Array",
+    "problem_url": "https://codeforces.com/contest/252/problem/B",
+    "submission_id": "CF230924876",
+    "submission_url": "https://codeforces.com/contest/252/submission/230924876",
+    "tags": [
+      "brute force",
+      "sortings",
+      "*1800"
+    ],
+    "timestamp": "Nov/02/2023 01:37"
+  },
   "CF230925210": {
     "contest_id": 252,
     "language": "C++20 (GCC 11-64)",
