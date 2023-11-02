@@ -32,16 +32,20 @@ int main(){
     int n;
     cin >> n;
     vi v(n);
+    // int imin = 0, min = 1e9;
+    // int imax = 0, max = 0;
 
     for (int i = 0; i < n; i++) {
         cin >> v[i];
+        // s.insert(v[i]);
+        // m[v[i]] = i;
     }
+
 
     if (n <= 2){
         cout << -1 << "\n";
         return 0;
     }
-
     swap(v[0], v[1]);
     if (!(v[0] <= v[1] and v[1] <= v[2]) and !(v[0] >= v[1] and v[1] >= v[2])){
         cout << 1 << " " << 2 << "\n";
@@ -66,7 +70,6 @@ int main(){
         return 0;
     }
     swap(v[n-2], v[n-1]);
-    
     swap(v[0], v[1]);   
     if (!(v[0] <= v[1] and v[1] <= v[2]) and !(v[0] >= v[1] and v[1] >= v[2])){
         cout << 1 << " " << 2 << "\n";
@@ -75,17 +78,17 @@ int main(){
     for (int i = 1; i < n-2; i++) {
         swap(v[i], v[i+1]);
         if (!(v[i] <= v[i+1] and v[i+1] <= v[i+2]) and !(v[i] >= v[i+1] and v[i+1] >= v[i+2])){
-            cout << i+1 << " " << i+2 << "\n";
+            cout << 1 << " " << i+2 << "\n";
             return 0;
         }
         if (!(v[i-1] <= v[i] and v[i] <= v[i+1]) and !(v[i-1] >= v[i] and v[i] >= v[i+1])){
-            cout << i+1 << " " << i+2 << "\n";
+            cout << 1 << " " << i+2 << "\n";
             return 0;
         }
     }
     swap(v[n-2], v[n-1]);
     if (!(v[n-3] <= v[n-2] and v[n-2] <= v[n-1]) and !(v[n-3] >= v[n-2] and v[n-2] >= v[n-1])){
-        cout << n-1 << " " << n << "\n";
+        cout << 1 << " " << n << "\n";
         return 0;
     }
     
