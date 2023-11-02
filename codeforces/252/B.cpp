@@ -26,19 +26,19 @@ const int maxn = 2e5;
 const u32 MOD = 1000000007;
 vi v(maxn);
 set <int> s;
-// map <int, int> m;
+map <int, int> m;
 
 int main(){ 
     fast_io;
     int n;
     cin >> n;
-    // int imin = 0, min = 1e9;
-    // int imax = 0, max = 0;
+    int imin = 0, min = 1e9;
+    int imax = 0, max = 0;
 
     for (int i = 0; i < n; i++) {
         cin >> v[i];
         s.insert(v[i]);
-        // m[v[i]] = i;
+        m[v[i]] = i;
     }
 
 
@@ -70,7 +70,13 @@ int main(){
         return 0;
     }
     swap(v[n-2], v[n-1]);
-    swap(v[0], v[1]);   
+    // for (int i = 0; i < n; i++) {
+    //     cout << v[i] << " ";
+    // }
+    // cout << "\n";
+    // // return 0;
+
+    swap(v[0], v[1]);
     if (!(v[0] <= v[1] and v[1] <= v[2]) and !(v[0] >= v[1] and v[1] >= v[2])){
         cout << 1 << " " << 2 << "\n";
         return 0;
