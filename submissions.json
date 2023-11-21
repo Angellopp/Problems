@@ -1,4 +1,22 @@
 {
+  "CF233627527": {
+    "contest_id": 1899,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1899\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Yarik and Musical Notes",
+    "problem_url": "https://codeforces.com/contest/1899/problem/D",
+    "submission_id": "CF233627527",
+    "submission_url": "https://codeforces.com/contest/1899/submission/233627527",
+    "tags": [
+      "hashing",
+      "math",
+      "number theory",
+      "*1300"
+    ],
+    "timestamp": "Nov/20/2023 19:13"
+  },
   "CF241429053": {
     "contest_id": 1920,
     "language": "C++20 (GCC 11-64)",
