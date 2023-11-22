@@ -14,10 +14,6 @@ int main() {
         ans = 0;
         res = a[n-1], par = 0;
         for (int i = n-2; i >= 0; i--) {
-            if (a[i] <= res) {
-                res = a[i];
-                continue;
-            }
             par = (a[i] + res - 1) / res;
             res = a[i] / par;
             ans += par - 1;
