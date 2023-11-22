@@ -3,7 +3,6 @@ using ll = long long;
 using namespace std;
 
 int main() {
-    ios_base::sync_with_stdio(0), cin.tie(0);
     int tt, n, a[200002];
     cin >> tt;
     ll ans;
