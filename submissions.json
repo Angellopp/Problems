@@ -1450,6 +1450,22 @@
     ],
     "timestamp": "Nov/20/2023 19:13"
   },
+  "CF233869731": {
+    "contest_id": 1898,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1898\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Colorful Grid",
+    "problem_url": "https://codeforces.com/contest/1898/problem/C",
+    "submission_id": "CF233869731",
+    "submission_url": "https://codeforces.com/contest/1898/submission/233869731",
+    "tags": [
+      "constructive algorithms",
+      "*1700"
+    ],
+    "timestamp": "Nov/23/2023 01:35"
+  },
   "CF235952318": {
     "contest_id": 1907,
     "language": "C++20 (GCC 11-64)",
