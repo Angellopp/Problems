@@ -14,7 +14,7 @@ int main() {
         for (int i = 0; i < n; i++) cin >> a[i]; 
         for (int i = 0; i < n; i++) cin >> b[i];
         for (int i = 0; i < n; i++) {
-            cc.emplace_back((a[i] + b[i]), i);
+            cc.push_back({(a[i] + b[i]), i});
         }
         sort(cc.rbegin(), cc.rend());
         for (int i = 0; i < n; i++) {
