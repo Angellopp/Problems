@@ -1450,6 +1450,22 @@
     ],
     "timestamp": "Nov/20/2023 19:13"
   },
+  "CF238433734": {
+    "contest_id": 1913,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1913\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Swap and Delete",
+    "problem_url": "https://codeforces.com/contest/1913/problem/B",
+    "submission_id": "CF238433734",
+    "submission_url": "https://codeforces.com/contest/1913/submission/238433734",
+    "tags": [
+      "strings",
+      "*1000"
+    ],
+    "timestamp": "Dec/22/2023 20:50"
+  },
   "CF239425668": {
     "contest_id": 1913,
     "language": "C++20 (GCC 11-64)",
