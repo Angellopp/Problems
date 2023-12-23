@@ -14,17 +14,12 @@ int main() {
         for (int i = 0; i < n; i++) cin >> a[i]; 
         for (int i = 0; i < n; i++) cin >> b[i];
         for (int i = 0; i < n; i++) {
-            a[i] = (a[i] - 1);
-            b[i] = (1 - b[i]);
-        }
-        for (int i = 0; i < n; i++) {
-            cc.push_back({(a[i] - b[i]), i});
+            cc.push_back({(a[i] + b[i]), i});
         }
         sort(cc.rbegin(), cc.rend());
         for (int i = 0; i < n; i++) {
-            ans += (i % 2) ? b[cc[i].second] : a[cc[i].second];
+            ans += (i % 2) ? 1-b[cc[i].second] : a[cc[i].second]-1;
         }
-        
         cout << ans <<"\n";
 
     }
