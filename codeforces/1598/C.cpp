@@ -11,25 +11,38 @@ int main() {
         vector <int> v(n);
         for (int i = 0; i < n; i++) cin >> v[i];
         ll k = 0;
-        map <int, int> m;
         for (int i = 0; i < n; i++) {
-            m[v[i]]++;
-            k += 2*v[i];
+            k += v[i];
         }
-        if (k % n) {
+        if (2*k % n) {
             cout << "0\n";
             continue;
         }
+        k *= 2;
         k /= n; 
+        sort(v.begin(), v.end());
+        // int i = 0, j = n-1;
+        // while(i < j) {
+        //     if(v[i] + v[j] < 2 * k) {
+
+        //     }
+        // }
         ll ans = 0;
         int val = 0;
-        for (auto a: m) {
-            val = k - a.first;
-            if (val == a.first) ans += 1LL * m[a.first] * (m[a.first] - 1);
-            else if (m[val]) ans += 1LL * m[a.first] * m[val];
+        for (int i = 0; i < n-1; i++) {
+            val = k - v[i];
+            int aux = lower_bound(v.begin() + i + 1, v.end(), val) - v.begin() ;
+            int aux2 = upper_bound(v.begin() + i + 1, v.end(), val) - (v.begin() + 1);
+            // cout << aux << " " << aux2 << " " << val << "\n";
+            if (aux2 >=0 and aux2 < n and aux >=0 and aux < n) {
+
+                if (v[aux] == val and v[aux2] == val) {
+                    ans += (aux2 - aux + 1);
+                }
+            }
         }
         v.clear();
-        cout << ans /2<< "\n";
+        cout << ans << "\n";
     }
     
 }
