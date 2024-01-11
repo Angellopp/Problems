@@ -11,23 +11,21 @@ int main() {
         vector <int> v(n);
         for (int i = 0; i < n; i++) cin >> v[i];
         ll k = 0;
+        map <int, int> m;
         for (int i = 0; i < n; i++) {
+            m[v[i]]++;
             k += 2*v[i];
         }
         if (k % n) {
             cout << "0\n";
             continue;
         }
-        map <ll, int> m;
-        for (int i = 0; i < n; i++) {
-            m[v[i]]++;
-        }
         k /= n; 
         ll ans = 0;
         int val = 0;
         for (auto a: m) {
             val = k - a.first;
-            if (val == a.first) ans += 1LL *m[a.first] * (m[a.first] - 1);
+            if (val == a.first) ans += 1LL * m[a.first] * (m[a.first] - 1);
             else if (m[val]) ans += 1LL * m[a.first] * m[val];
         }
         v.clear();
