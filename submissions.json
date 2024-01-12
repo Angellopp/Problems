@@ -1450,6 +1450,24 @@
     ],
     "timestamp": "Nov/20/2023 19:13"
   },
+  "CF241225972": {
+    "contest_id": 1915,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1915\\E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Romantic Glasses",
+    "problem_url": "https://codeforces.com/contest/1915/problem/E",
+    "submission_id": "CF241225972",
+    "submission_url": "https://codeforces.com/contest/1915/submission/241225972",
+    "tags": [
+      "data structures",
+      "greedy",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Jan/11/2024 21:09"
+  },
   "CF241226825": {
     "contest_id": 1915,
     "language": "C++20 (GCC 11-64)",
