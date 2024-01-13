@@ -1,4 +1,22 @@
 {
+  "CF241429053": {
+    "contest_id": 1920,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1920\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Satisfying Constraints",
+    "problem_url": "https://codeforces.com/contest/1920/problem/A",
+    "submission_id": "CF241429053",
+    "submission_url": "https://codeforces.com/contest/1920/submission/241429053",
+    "tags": [
+      "brute force",
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jan/13/2024 09:49"
+  },
   "CF241469240": {
     "contest_id": 1920,
     "language": "C++20 (GCC 11-64)",
