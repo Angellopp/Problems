@@ -13,23 +13,39 @@ int main() {
         ll a, b, r;
         cin >> a >> b >> r;
         if (a < b) swap(a, b);
-        bool can = 1;
-        ll aux = 0;
-        for (int i = 61; i >= 0; i--) {
-            bool ca = (a >> i) & 1;
-            bool cb = (b >> i) & 1;
-            if (ca ^ cb) {
-                if (can) can = 0;
-                else {
-                    if (ca and (aux | (1LL<<i)) <= r) {
+        ll ans = 0;
+        ll i = 61;
+        while ((r>>i & 1LL) == 0 and i >= 0) {
+            ans += (a & (1LL<<i));
+            ans -= (b & (1LL<<i));
+            i--;
+        }
+        if (ans > 0) {
+            ll aux = 0;
+            while(i >= 0) {
+                ll dif = (1LL<<i & a) - (1LL<<i & b);
+                if (dif) {
+                    if (dif > 0 and (aux | 1LL<<i) <= r){
                         aux |= 1LL<<i;
-                        a ^= 1LL<<i;
-                        b ^= 1LL<<i;
+                        ans -= dif;
                     }
+                    else ans += dif;
                 }
+                i--;
             }
         }
-        cout << a - b << "\n";
+        else {
+            ll can = 1;
+            while(i >= 0) {
+                ll d = (1LL<<i & a) - (1LL<<i & b);
+                if (d) {
+                    ans += can * abs(d);
+                    can = -1;
+                }
+                i--;
+            }
+        }
+        cout << ans << "\n";
     }
     return 0;
 }
