@@ -4,6 +4,8 @@ const int MAXN = 2*1e5+2;
 using namespace std;
 
 vector<int> v1(MAXN), v2(MAXN);
+// vector<int> v1(MAXN);
+// vector<pair<int,int>> vp(MAXN);
 map <int, int> m1, m2;
 
 int main() {
@@ -34,21 +36,27 @@ int main() {
                 b2[m1[val]] = 1;
                 i--;
             }
+            // i--;
+            // if (b1[val] and b1[val]) val--;
             if (b2[val] == 0 and b1[m2[val]] == 0) {
                 v1[i] = m2[val];
                 v2[i] = val;
                 b1[m2[val]] = 1;
                 b2[val] = 1;
                 i--;
+                // cout << "-" << v1[i] << " " << v2[i] << " i:" << i << "\n";
+                // i--;
             }
+            // i--;
             if (b1[val] and b1[val]) val--;
         }
-        for (int i = 0; i < n; i++)
+        for (int i = 0; i < n; i++) {
             cout << v1[i] << " ";
-        cout << "\n";
-        for (int i = 0; i < n; i++)
+        } cout << "\n";
+        for (int i = 0; i < n; i++) {
             cout << v2[i] << " ";
-        cout << "\n";
+        } cout << "\n";
+
     }
     return 0;
 }
