@@ -1,4 +1,21 @@
 {
+  "CF245093021": {
+    "contest_id": 1927,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1927\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Make it White",
+    "problem_url": "https://codeforces.com/contest/1927/problem/A",
+    "submission_id": "CF245093021",
+    "submission_url": "https://codeforces.com/contest/1927/submission/245093021",
+    "tags": [
+      "greedy",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Feb/06/2024 09:52"
+  },
   "CF245118060": {
     "contest_id": 1927,
     "language": "C++20 (GCC 11-64)",
