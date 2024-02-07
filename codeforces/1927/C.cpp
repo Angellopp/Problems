@@ -10,21 +10,22 @@ int main() {
     cin >> tt;
 
     while (tt--){
-        int n, m, k, aux;
+        int n, m, k;
         cin >> n >> m >> k;
+        vector <int> a(n), b(m);
         vector <bool> c(k+1), d(k+1), comp(k+1);
         for (int i = 0; i < n; i++){
-            cin >> aux;
-            if (aux <= k){
-                c[aux] = 1;
-                comp[aux] = 1;
+            cin >> a[i];
+            if (a[i] <= k){
+                c[a[i]] = 1;
+                comp[a[i]] = 1;
             }
         }
         for (int i = 0; i < m; i++){
-            cin >> aux;
-            if (aux <= k){
-                d[aux] = 1;
-                comp[aux] = 1;
+            cin >> b[i];
+            if (b[i] <= k){
+                d[b[i]] = 1;
+                comp[b[i]] = 1;
             }
         }
         int sumc = 0, sumd = 0;
