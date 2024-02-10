@@ -5,21 +5,34 @@
 typedef long long ll;
 using namespace std;
 int main() {
-    fast_io
     int tt;
     cin >> tt;
     while (tt--) {
         int n;
         cin >> n;
         vector <int> v(n+1);
+        vector <int> ind;
         fori cin >> v[i];
-        ll aux = 0, sum = 0;
-        for (int i = n-1; i >= 0; i--) {
-            if (aux > 0) 
-                sum += aux;
+        v.push_back(0);
+        ll aux = 0;
+        for (int i = n; i > 1; i--) {
             aux += v[i];
+            if (-v[i-1] <= aux) {
+                ind.push_back(i-1);
+            }
         }
-        sum += aux;
+        ind.push_back(0);
+
+        // imp(ind);
+        int j = ind.size() - 1;
+        ll sum = 0, mul = 0;
+        fori {
+            if(i == ind[j]) {
+                j--;
+                mul ++;
+            }
+            sum += mul * v[i];	
+        }
         cout << sum << "\n";
 
     }
