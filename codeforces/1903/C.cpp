@@ -5,6 +5,7 @@
 typedef long long ll;
 using namespace std;
 int main() {
+    fast_io
     int tt;
     cin >> tt;
     while (tt--) {
