@@ -1,4 +1,22 @@
 {
+  "CF245766658": {
+    "contest_id": 1920,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1920\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Partitioning the Array",
+    "problem_url": "https://codeforces.com/contest/1920/problem/C",
+    "submission_id": "CF245766658",
+    "submission_url": "https://codeforces.com/contest/1920/submission/245766658",
+    "tags": [
+      "brute force",
+      "math",
+      "number theory",
+      "*1600"
+    ],
+    "timestamp": "Feb/10/2024 21:08"
+  },
   "CF246049308": {
     "contest_id": 1928,
     "language": "C++20 (GCC 11-64)",
