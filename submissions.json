@@ -1,4 +1,22 @@
 {
+  "CF246201544": {
+    "contest_id": 1931,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1931\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Divisible Pairs",
+    "problem_url": "https://codeforces.com/contest/1931/problem/D",
+    "submission_id": "CF246201544",
+    "submission_url": "https://codeforces.com/contest/1931/submission/246201544",
+    "tags": [
+      "combinatorics",
+      "math",
+      "number theory",
+      "*1300"
+    ],
+    "timestamp": "Feb/13/2024 10:41"
+  },
   "CF246252132": {
     "contest_id": 1931,
     "language": "C++20 (GCC 11-64)",
