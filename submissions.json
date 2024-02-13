@@ -1,4 +1,23 @@
 {
+  "CF246054133": {
+    "contest_id": 1928,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1928\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Equalize",
+    "problem_url": "https://codeforces.com/contest/1928/problem/B",
+    "submission_id": "CF246054133",
+    "submission_url": "https://codeforces.com/contest/1928/submission/246054133",
+    "tags": [
+      "binary search",
+      "greedy",
+      "sortings",
+      "two pointers",
+      "*1200"
+    ],
+    "timestamp": "Feb/12/2024 21:56"
+  },
   "CF246126497": {
     "contest_id": 1931,
     "language": "C++20 (GCC 11-64)",
