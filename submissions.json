@@ -1,4 +1,22 @@
 {
+  "CF246159591": {
+    "contest_id": 1931,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1931\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Make Equal Again",
+    "problem_url": "https://codeforces.com/contest/1931/problem/C",
+    "submission_id": "CF246159591",
+    "submission_url": "https://codeforces.com/contest/1931/submission/246159591",
+    "tags": [
+      "brute force",
+      "greedy",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Feb/13/2024 10:05"
+  },
   "CF246201544": {
     "contest_id": 1931,
     "language": "C++20 (GCC 11-64)",
