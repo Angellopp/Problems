@@ -41,7 +41,7 @@ int main(){
         vector <int> v;
         int ans = 1;
         for (auto x : s) v.push_back(x);
-        for (int i = 0; i < v.size()-1; i++) {
+        for (int i = 0; i < v.size(); i++) {
             int a = upper_bound(v.begin(), v.end(), v[i] + n-1) - v.begin();
             if(a) a--;
             a-= i;
