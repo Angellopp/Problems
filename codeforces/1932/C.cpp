@@ -5,7 +5,7 @@
     int main(){
         int tt;
         cin >> tt;
-        vector <int> v(200005);
+        vector <ll> v(200005);
         while (tt--) {
             int n, k;
             cin >> n >> k;
@@ -17,7 +17,7 @@
                 if (s[i] == 'L') l++;
             }
             if (s[n-1] == 'R') l++;
-            vector <int> ans;
+            vector <ll> ans;
             ans.emplace_back(v[l]%k);
             int xdl = l, xdr = l;
             for (int i = n-2; i >= 0; i--) {
