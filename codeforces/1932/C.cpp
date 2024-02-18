@@ -10,12 +10,9 @@
         cin >> tt;
         vector <int> v(200005);
         while (tt--) {
-            int n, k, x;
+            int n, k;
             cin >> n >> k;
-            for (int i = 0; i < n; i++) {
-                cin >> x;
-                v[i] = x%k;
-            }
+            for (int i = 0; i < n; i++) cin >> v[i];
             string s;
             cin >> s;
             int l = -1;
