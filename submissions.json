@@ -1,4 +1,21 @@
 {
+  "CF247545677": {
+    "contest_id": 1932,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1932\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Thorns and Coins",
+    "problem_url": "https://codeforces.com/contest/1932/problem/A",
+    "submission_id": "CF247545677",
+    "submission_url": "https://codeforces.com/contest/1932/submission/247545677",
+    "tags": [
+      "dp",
+      "greedy",
+      "implementation"
+    ],
+    "timestamp": "Feb/20/2024 17:44"
+  },
   "CF247547785": {
     "contest_id": 1932,
     "language": "C++20 (GCC 11-64)",
