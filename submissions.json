@@ -1,4 +1,21 @@
 {
+  "CF247558715": {
+    "contest_id": 1932,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1932\\E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Final Countdown",
+    "problem_url": "https://codeforces.com/contest/1932/problem/E",
+    "submission_id": "CF247558715",
+    "submission_url": "https://codeforces.com/contest/1932/submission/247558715",
+    "tags": [
+      "implementation",
+      "math",
+      "number theory"
+    ],
+    "timestamp": "Feb/20/2024 22:22"
+  },
   "CF247810954": {
     "contest_id": 1833,
     "language": "C++20 (GCC 11-64)",
