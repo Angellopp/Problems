@@ -1,4 +1,20 @@
 {
+  "CF247550255": {
+    "contest_id": 1932,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1932\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Card Game",
+    "problem_url": "https://codeforces.com/contest/1932/problem/D",
+    "submission_id": "CF247550255",
+    "submission_url": "https://codeforces.com/contest/1932/submission/247550255",
+    "tags": [
+      "greedy",
+      "implementation"
+    ],
+    "timestamp": "Feb/20/2024 19:45"
+  },
   "CF247558715": {
     "contest_id": 1932,
     "language": "C++20 (GCC 11-64)",
