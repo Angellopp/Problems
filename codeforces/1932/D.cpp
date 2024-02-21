@@ -27,7 +27,7 @@
             auxs -= m[win].size()%2;
             if (m[win].size() < auxs) can = 0;
             if (can) {
-                for (auto x : m) {
+                for (auto& x : m) {
                     if(x.first != win) {
                         for (int i = 1; i < x.second.size(); i+=2) {
                             cout << x.second[i-1] << " " << x.second[i] << "\n";
@@ -35,7 +35,7 @@
                     }
                 }
                 int j = 0;
-                for (auto x : m) {
+                for (auto& x : m) {
                     if (x.first != win) {
                         if (x.second.size() and x.second.size() % 2) {
                             cout << x.second.back() << " " << m[win][j++] << "\n";
