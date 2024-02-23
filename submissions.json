@@ -1,4 +1,17 @@
 {
+  "CF247811711": {
+    "contest_id": 1833,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1833\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Flipper",
+    "problem_url": "https://codeforces.com/contest/1833/problem/D",
+    "submission_id": "CF247811711",
+    "submission_url": "https://codeforces.com/contest/1833/submission/247811711",
+    "tags": [],
+    "timestamp": "Feb/22/2024 20:04"
+  },
   "CF247812796": {
     "contest_id": 1833,
     "language": "C++20 (GCC 11-64)",
