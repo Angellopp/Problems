@@ -45,15 +45,33 @@ int main(){
         for (int i = xd1; i < n; i++) {
             cout << v[i] << " ";
         }
-        if (xd1 != n-1) cout << v[--xd1] << " ";
-        
-        xd1--;
-        for (xd1; xd1 >= 0; xd1--) {
-            if (v[xd1] > v[0]) cout << v[xd1] << " ";
-            else break;
+        if (xd1 != n-1) {
+            cout << v[--xd1] << " ";
+            xd1--;
+            for (xd1; xd1 >= 0; xd1--) {
+                if (v[xd1] > v[0]) cout << v[xd1] << " ";
+                else break;
+            }
+            for (int i = 0; i <= xd1; i++) {
+                cout << v[i] << " ";
+            }
         }
-        for (int i = 0; i <= xd1; i++) {
-            cout << v[i] << " ";
+        else {
+            xd1--;
+            if (v[0] > v[xd1]) {
+                for (int i = 0; i <= xd1; i++) {
+                    cout << v[i] << " ";
+                }
+            }
+            else {
+                for (xd1; xd1 >= 0; xd1--) {
+                    if (v[xd1] > v[0]) cout << v[xd1] << " ";
+                    else break;
+                }
+                for (int i = 0; i <= xd1; i++) {
+                    cout << v[i] << " ";
+                }
+            }
         }
         cout << "\n";
     }
