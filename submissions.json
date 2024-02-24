@@ -1,4 +1,21 @@
 {
+  "CF248129510": {
+    "contest_id": 3,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\3\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Shortest path of the king",
+    "problem_url": "https://codeforces.com/contest/3/problem/A",
+    "submission_id": "CF248129510",
+    "submission_url": "https://codeforces.com/contest/3/submission/248129510",
+    "tags": [
+      "greedy",
+      "shortest paths",
+      "*1000"
+    ],
+    "timestamp": "Feb/24/2024 11:53"
+  },
   "CF248498142": {
     "contest_id": 1933,
     "language": "C++20 (GCC 11-64)",
