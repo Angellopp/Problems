@@ -1,4 +1,22 @@
 {
+  "CF248546869": {
+    "contest_id": 1933,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1933\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Turtle Fingers: Count the Values of k",
+    "problem_url": "https://codeforces.com/contest/1933/problem/C",
+    "submission_id": "CF248546869",
+    "submission_url": "https://codeforces.com/contest/1933/submission/248546869",
+    "tags": [
+      "brute force",
+      "implementation",
+      "math",
+      "number theory"
+    ],
+    "timestamp": "Feb/27/2024 10:08"
+  },
   "CF248563234": {
     "contest_id": 1933,
     "language": "C++20 (GCC 11-64)",
