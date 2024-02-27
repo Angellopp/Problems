@@ -1,4 +1,21 @@
 {
+  "CF248521731": {
+    "contest_id": 1933,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1933\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Turtle Math: Fast Three Task",
+    "problem_url": "https://codeforces.com/contest/1933/problem/B",
+    "submission_id": "CF248521731",
+    "submission_url": "https://codeforces.com/contest/1933/submission/248521731",
+    "tags": [
+      "implementation",
+      "math",
+      "number theory"
+    ],
+    "timestamp": "Feb/27/2024 09:48"
+  },
   "CF248546869": {
     "contest_id": 1933,
     "language": "C++20 (GCC 11-64)",

@@ -1,0 +1,60 @@
+#include <bits/stdc++.h>
+#define fast_io ios_base::sync_with_stdio(false); cin.tie (NULL)
+#define all(x) x.begin(), x.end()
+#define rall(x) x.rbegin(), x.end()
+#define pb push_back
+#define pf push_front
+#define PI acos(-1)
+#define F first
+#define S second
+
+using u32 = uint32_t;
+using u64 = uint64_t;
+using namespace std;
+
+typedef long long ll;
+typedef pair<int, int> pii;
+typedef pair<ll,ll> pll;
+typedef vector<int> vi;
+typedef vector<pii> vii;
+typedef vector<pll> vll;
+typedef vector<string> vs;
+typedef priority_queue<int> pq_max;
+typedef priority_queue<int, vi, greater<int>> pq_min;
+
+const int maxn = 2e5;
+const u32 MOD = 1000000007;
+
+
+int main(){ 
+    fast_io;
+    int tt, aux;
+    cin >> tt;
+    while (tt--) {
+        int n, ans = 0;
+        int uno = 0, dos = 0;
+        cin >> n;
+        for (int i = 0; i < n; ++i) {
+            cin >> aux;
+            if (aux%3 == 1) uno++;
+            if (aux%3 == 2) dos++;
+        }
+        int res = (uno + dos*2) % 3;
+        // cout << res << "\n";
+        if (res == 0) cout << "0\n";
+        if (res == 1) {
+            if(uno >= 1)
+                cout << "1\n";
+            else {
+                cout << "2\n";
+            }}
+        if (res == 2) {
+            if (dos >= 1)
+                cout << "1\n";
+            else 
+                cout << "1\n";
+            }
+
+    }
+    return 0;
+}
