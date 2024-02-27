@@ -39,10 +39,16 @@ int main(){
             cin >> v[i];
             gc = __gcd(gc, v[i]);
         }
+        // cout << gc << " \n";
         sort(v.begin(), v.end());
-        for (int i = 0; i < 2; i++) 
-            v[i] = v[i] / gc;
-
+        if(gc > 1) {
+            for (int i = 0; i < n; i++) {
+                v[i] = v[i] / gc;
+            }
+        }
+        // for (int i = 0; i < n; i++) {
+        //     cout << v[i] << " ";
+        // }cout << "\n";
         if(v[0] == 1 and v[1] == 1) {cout << "NO\n";}
         else {cout << "YES\n";}
 
