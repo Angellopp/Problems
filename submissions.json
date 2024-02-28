@@ -1,4 +1,21 @@
 {
+  "CF248788111": {
+    "contest_id": 1905,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1905\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Largest Subsequence",
+    "problem_url": "https://codeforces.com/contest/1905/problem/C",
+    "submission_id": "CF248788111",
+    "submission_url": "https://codeforces.com/contest/1905/submission/248788111",
+    "tags": [
+      "greedy",
+      "strings",
+      "*1400"
+    ],
+    "timestamp": "Feb/28/2024 12:28"
+  },
   "CF248987020": {
     "contest_id": 1937,
     "language": "C++20 (GCC 11-64)",
