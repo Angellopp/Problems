@@ -28,10 +28,16 @@ int main() {
         }
 
         int cont = -1;
-        for (int i = 0 ; i < n; i++) 
+        for (int i = 0 ; i < n; i++) {
             if (s[i] == v.back().first) cont++;
-
-        cout << ((s == copy) ? (int)v.size() - 1 - cont : -1) << "\n";
+        }
+        // cout << s << "\n";
+        // cout << ((s == copy) ? v.size() - 1 : -1 ) << "\n";
+        if (s == copy) {
+                cout << v.size() - 1 - cont << "\n";
+        } 
+        else 
+            cout << -1 << "\n";
     }
     return 0;
 }
