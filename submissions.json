@@ -1,4 +1,21 @@
 {
+  "CF248987439": {
+    "contest_id": 1937,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1937\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Binary Path",
+    "problem_url": "https://codeforces.com/contest/1937/problem/B",
+    "submission_id": "CF248987439",
+    "submission_url": "https://codeforces.com/contest/1937/submission/248987439",
+    "tags": [
+      "dp",
+      "greedy",
+      "implementation"
+    ],
+    "timestamp": "Feb/29/2024 14:15"
+  },
   "CF248988127": {
     "contest_id": 1937,
     "language": "C++20 (GCC 11-64)",
