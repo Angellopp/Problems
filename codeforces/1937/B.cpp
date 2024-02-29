@@ -22,8 +22,8 @@ int main() {
         for (j; j > 0; j--) {
             if(grid[0][j] < grid[1][j-1]) break;
         }
-        for (int h = 0; h <= i; h++) cout << grid[0][h];
-        for (int h = i; h < n; h++)  cout << grid[1][h];
+        for (int ii = 0; ii <= i; ii++) cout << grid[0][ii];
+        for (int ii = i; ii < n; ii++)  cout << grid[1][ii];
         cout << "\n" << i - j + 1 << " \n";
     }
     return 0;
