@@ -1,7 +1,5 @@
 #include <bits/stdc++.h>
 #define ll long long
-#define F first
-#define S second
 #define nn '\n'
 #define fast_io ios_base::sync_with_stdio(false); cin.tie (NULL)
 #define readv(v, n) for (int i = 0; i < n; i++) cin >> v[i]
@@ -28,16 +26,18 @@ int main() {
         bool can = 0;
         do {
             int dx, dy;
-            dx = ((dir[0] == 'D') ? n - cur.F : cur.F - 1);
-            dy = ((dir[1] == 'R') ? m - cur.S : cur.S - 1);
-            pair<int, int> dist = {fin.F - cur.F, fin.S - cur.S};
-            can = ((dist.F == 0 and dist.S == 0) or (abs(dist.F) == abs(dist.S) and dist.F * mp[dir].F > 0 and dist.S * mp[dir].S > 0));
+            if (dir[0] == 'D') dx = n - cur.first;
+            else  dx = cur.first - 1;
+            if (dir[1] == 'R') dy = m - cur.second;
+            else  dy = cur.second - 1;
+            pair<int, int> dist = {fin.first - cur.first, fin.second - cur.second};
+            can = ((dist.first == 0 and dist.second == 0) or abs(dist.first) == abs(dist.second) and dist.first/abs(dist.first) == mp[dir].first and dist.second/abs(dist.second) == mp[dir].second);
             if (dx <= dy) {
-                cur = {(dir[0] == 'D') ? n : 1, cur.S + dx * mp[dir].S};
+                cur = {(dir[0] == 'D') ? n : 1, cur.second + dx * mp[dir].second};
                 (dir[0] == 'D') ? dir[0] = 'U' : dir[0] = 'D';
             }
             if (dy <= dx) {
-                if (dy < dx) cur = {cur.F + dy * mp[dir].F, (dir[1] == 'L') ? 1 : m};
+                if (dy < dx) cur = {cur.first + dy * mp[dir].first, (dir[1] == 'L') ? 1 : m};
                 (dir[1] == 'L') ? dir[1] = 'R' : dir[1] = 'L';
             }
             if(ans == 0) {primer = cur; dir_primer = dir;}
@@ -45,7 +45,7 @@ int main() {
         }
         while ((cur != primer or dir != dir_primer or ans == 1) and !can);
         if(!can) ans = 0;
-        cout << ans - 1 << nn;
+        cout << ans - 1<< nn;
     }
     return 0;
 }
