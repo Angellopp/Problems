@@ -8,37 +8,30 @@ using namespace std;
 
 int tt, n;
 vector<int> v(100);
-
-bool f(int k){
-    int aux = k;
-    int l = 0, r = n-1;
-    while (true) {
-        while (v[r] > aux) r--;
-        if (l > r--) break;
-        l++;
-        aux--;
-    }
-    return !(aux);
-}
-
-int upper_bound(int i, int n){
-    int lo = i;
-    int hi = n;
-    while(lo < hi){
-        int mi = lo + (hi - lo + 1) / 2;
-        if(f(mi)) lo = mi;
-        else hi = mi-1;
-    }
-    return lo;
-}
-
 int main() {
     cin >> tt;
     while (tt--) {
         cin >> n;
         readv(v, n);
         sort(v.begin(), v.begin()+n);
-        cout << upper_bound(0, n) << nn;
+        if (v[0] != 1) {
+            cout << 0 << nn;
+            continue;
+        }
+
+        int k = 1;
+        for (k; k <= n; k++) {
+            int aux = k;
+            int l = 0, r = n-1;
+            while (true) {
+                while (v[r] > aux) r--;
+                if (l > r--) break;
+                l++;
+                aux--;
+            }
+            if(aux) break; 
+        }
+        cout << k - 1 << nn;
 
     }
     return 0;
