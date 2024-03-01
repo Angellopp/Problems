@@ -15,19 +15,25 @@ int main() {
         cin >> n;
         readv(v, n);
         sort(v.begin(), v.begin()+n);
-        int k = 0;
+        if (v[0] != 1) {
+            cout << 0 << nn;
+            continue;
+        }
+
+        int k = 1;
         for (k; k <= n; k++) {
             int aux = k;
             int l = 0, r = n-1;
             while (true) {
-                while (v[r] > aux) r--; r--;
+                while (v[r] > aux) r--; 
+                r--;
                 if (l - 1 > r) break;
                 l++;
                 aux--;
             }
             if(aux) break; 
         }
-        cout << k - 1 << nn;
+        cout << k - 1<< nn;
 
     }
     return 0;
