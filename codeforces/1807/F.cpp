@@ -25,13 +25,21 @@ int main() {
         int ans = 0;
         bool can = 0;
         do {
+            // cout << cur.first << " " << cur.second << " " << dir ;
             int dx, dy;
             if (dir[0] == 'D') dx = n - cur.first;
-            else  dx = cur.first - 1;
+            if (dir[0] == 'U') dx = cur.first - 1;
             if (dir[1] == 'R') dy = m - cur.second;
-            else  dy = cur.second - 1;
+            if (dir[1] == 'L') dy = cur.second - 1;
+
+            // if curr + a*mp[s] == fin {con = 1}
+
+
+
             pair<int, int> dist = {fin.first - cur.first, fin.second - cur.second};
             can = ((dist.first == 0 and dist.second == 0) or abs(dist.first) == abs(dist.second) and dist.first/abs(dist.first) == mp[dir].first and dist.second/abs(dist.second) == mp[dir].second);
+            // if(dist.first/mp[dir].first == dist.second/mp[dir].second) break;
+
             if (dx <= dy) {
                 cur = {(dir[0] == 'D') ? n : 1, cur.second + dx * mp[dir].second};
                 (dir[0] == 'D') ? dir[0] = 'U' : dir[0] = 'D';
@@ -42,6 +50,8 @@ int main() {
             }
             if(ans == 0) {primer = cur; dir_primer = dir;}
             ans++;
+            // cout << " -> " << cur.first << " " << cur.second << " " << dir << nn;
+
         }
         while ((cur != primer or dir != dir_primer or ans == 1) and !can);
         if(!can) ans = 0;
