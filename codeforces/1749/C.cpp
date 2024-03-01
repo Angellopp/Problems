@@ -8,6 +8,7 @@ using namespace std;
 
 int tt, n;
 vector<int> v(100);
+int con[100+4];
 int main() {
     cin >> tt;
     while (tt--) {
