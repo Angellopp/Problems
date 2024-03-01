@@ -8,7 +8,6 @@ using namespace std;
 
 int tt, n;
 vector<int> v(100);
-int con[100+4];
 int main() {
     cin >> tt;
     while (tt--) {
@@ -19,20 +18,19 @@ int main() {
             cout << 0 << nn;
             continue;
         }
-
         int k = 1;
         for (k; k <= n; k++) {
             int aux = k;
             int l = 0, r = n-1;
             while (true) {
-                while (v[r] > aux) r--; r--;
-                if (l - 1 > r) break;
+                while (v[r] > aux) r--;
+                if (l > r--) break;
                 l++;
                 aux--;
             }
             if(aux) break; 
         }
-        cout << k - 1<< nn;
+        cout << k - 1 << nn;
 
     }
     return 0;
