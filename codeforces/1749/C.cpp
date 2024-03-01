@@ -25,14 +25,14 @@ int main() {
             int aux = k;
             int l = 0, r = n-1;
             while (true) {
-                while (v[r] > aux) r--;
-                if (l > r--) break;
+                while (v[r] > aux) r--; r--;
+                if (l - 1 > r) break;
                 l++;
                 aux--;
             }
             if(aux) break; 
         }
-        cout << k - 1 << nn;
+        cout << k - 1<< nn;
 
     }
     return 0;
