@@ -4147,5 +4147,26 @@
     "submission_url": "https://codeforces.com/contest/1938/submission/249234576",
     "tags": [],
     "timestamp": "Mar/01/2024 22:22"
+  },
+  "CF250010041": {
+    "contest_id": 1935,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1935\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Messenger in MAC",
+    "problem_url": "https://codeforces.com/contest/1935/problem/C",
+    "submission_id": "CF250010041",
+    "submission_url": "https://codeforces.com/contest/1935/submission/250010041",
+    "tags": [
+      "binary search",
+      "brute force",
+      "constructive algorithms",
+      "data structures",
+      "dp",
+      "greedy",
+      "sortings"
+    ],
+    "timestamp": "Mar/06/2024 20:19"
   }
 }
