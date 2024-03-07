@@ -6,7 +6,6 @@
 #define fast_io ios_base::sync_with_stdio(false); cin.tie (NULL)
 #define readv(v, n) for (int i = 0; i < n; i++) cin >> v[i]
 #define printv(v, n) for (int i = 0; i < n; i++) cout << v[i] << " "; cout << nn
-#define dbug(n) cout << "<[" << #n << "] = " << n << ">" << nn
 using namespace std;
 
 int main() {
