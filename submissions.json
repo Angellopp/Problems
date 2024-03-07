@@ -4247,6 +4247,22 @@
     ],
     "timestamp": "Mar/07/2024 13:46"
   },
+  "CF250138102": {
+    "contest_id": 1935,
+    "language": "C++20 (GCC 11-64)",
+    "path": "codeforces\\1935\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Entertainment in MAC",
+    "problem_url": "https://codeforces.com/contest/1935/problem/A",
+    "submission_id": "CF250138102",
+    "submission_url": "https://codeforces.com/contest/1935/submission/250138102",
+    "tags": [
+      "constructive algorithms",
+      "strings"
+    ],
+    "timestamp": "Mar/07/2024 16:31"
+  },
   "CF250163476": {
     "contest_id": 1935,
     "language": "C++20 (GCC 11-64)",

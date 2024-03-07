@@ -12,7 +12,7 @@ A repository to keep track of problem solving practice, containing solutions fro
 <div align="center" style="width: 100%;">
 	<br>
         <a href='https://raw.githubusercontent.com/Angellopp/Problems/master/table.svg'>
-            <img src="table.svg" style="width: 100%; height=9901;" alt="Click to see the source">
+            <img src="table.svg" style="width: 100%; height=9958;" alt="Click to see the source">
         </a>
 	<br>
 </div>
