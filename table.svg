@@ -90,7 +90,7 @@ code {
         <tr class='dark'>
           <td align='center'>169</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/1935/problem/D'>D - Exam in MAC</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/1935/submission/250122159'>?</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1935/submission/250121727'>?</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>binary search</code> <code>combinatorics</code> <code>implementation</code> <code>math</code></div></td>
         </tr>
         <tr class='light'>
