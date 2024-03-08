@@ -29,15 +29,12 @@ int main() {
                 break;
             }
         }
+        // dbg(mex);
         set<int> s;
         int i = 0;
         for (i; i < n; i++) {
             if (v[i] < mex) s.insert(v[i]);
             if (s.size() >= mex) break;
-        }
-        if(i == n) {
-            cout << "-1" << nn;
-            continue;
         }
         set<int> z;
         int j = i+1;
@@ -45,6 +42,8 @@ int main() {
             if (v[j] < mex) z.insert(v[j]);
             if (z.size() >= mex) break;
         }
+        // dbg(i);
+        // dbg(j);
         if (j == n) cout << "-1" << nn;
         else cout << 2 << nn << 1 << " " << i+1 << nn << i+2 << " " << n << nn;
     }
