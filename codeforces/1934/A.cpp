@@ -19,7 +19,8 @@ int main() {
         vector <int> v(n);
         readv(v, n);
         sort(v.begin(), v.end());
-        cout << 2 * (v[n-1] + v[n-2] - v[0] - v[1]) << nn;
+        int x1 = v[n-1] - v[0] + v[n-1] - v[1] + v[n-2] - v[0] + v[n-2] - v[1];
+        cout << x1 << nn;
 
     }
     return 0;
