@@ -11,16 +11,14 @@ using namespace std;
 
 int main() {
     fast_io;
-    int tt;
+    int tt, n;
     cin >> tt;
     while (tt--) {
-        int n;
         cin >> n;
         vector <int> v(n);
         readv(v, n);
         sort(v.begin(), v.end());
-        int x1 = v[n-1] - v[0] + v[n-1] - v[1] + v[n-2] - v[0] + v[n-2] - v[1];
-        cout << x1 << nn;
+        cout << 2 * (v[n-1] + v[n-2] - v[0] - v[1]) << nn;
 
     }
     return 0;

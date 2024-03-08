@@ -77,7 +77,7 @@ code {
           <td align='center'>175</td>
           <td rowspan='1' align='center'>1937</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/1937/problem/B'>B - Binary Path</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/1937/submission/248987020'>?</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1937/submission/248989551'>?</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>dp</code> <code>greedy</code> <code>implementation</code></div></td>
         </tr>
         <tr class='light'>
@@ -90,26 +90,26 @@ code {
         <tr class='dark'>
           <td align='center'>173</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/1935/problem/B'>B - Informatics in MAC</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/1935/submission/250163476'>?</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1935/submission/250164304'>?</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>constructive algorithms</code></div></td>
         </tr>
         <tr class='light'>
           <td align='center'>172</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/1935/problem/C'>C - Messenger in MAC</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/1935/submission/250010041'>?</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1935/submission/250124334'>?</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>binary search</code> <code>brute force</code> <code>constructive algorithms</code> <code>data structures</code> <code>dp</code> <code>greedy</code> <code>sortings</code></div></td>
         </tr>
         <tr class='dark'>
           <td align='center'>171</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/1935/problem/D'>D - Exam in MAC</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/1935/submission/250121727'>?</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1935/submission/250122159'>?</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>binary search</code> <code>combinatorics</code> <code>implementation</code> <code>math</code></div></td>
         </tr>
         <tr class='light'>
           <td align='center'>170</td>
           <td rowspan='2' align='center'>1934</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/1934/problem/A'>A - Too Min Too Max</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/1934/submission/250256071'>?</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1934/submission/250257595'>?</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>greedy</code> <code>math</code></div></td>
         </tr>
         <tr class='dark'>
@@ -140,7 +140,7 @@ code {
         <tr class='dark'>
           <td align='center'>165</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/1933/problem/D'>D - Turtle Tenacity: Continual Mods</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/1933/submission/248563234'>?</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1933/submission/248634950'>?</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>constructive algorithms</code> <code>greedy</code> <code>math</code> <code>number theory</code> <code>sortings</code></div></td>
         </tr>
         <tr class='light'>
@@ -165,13 +165,13 @@ code {
         <tr class='dark'>
           <td align='center'>161</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/1932/problem/C'>C - LR-remainders</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/1932/submission/247103016'>?</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1932/submission/247131946'>?</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>data structures</code> <code>implementation</code> <code>math</code> <code>two pointers</code></div></td>
         </tr>
         <tr class='light'>
           <td align='center'>160</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/1932/problem/D'>D - Card Game</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/1932/submission/247547785'>?</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1932/submission/247550255'>?</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>greedy</code> <code>implementation</code></div></td>
         </tr>
         <tr class='dark'>
@@ -221,7 +221,7 @@ code {
         <tr class='light'>
           <td align='center'>152</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/1928/problem/B'>B - Equalize</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/1928/submission/246050317'>1200</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1928/submission/246054133'>1200</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>binary search</code> <code>greedy</code> <code>sortings</code> <code>two pointers</code></div></td>
         </tr>
         <tr class='dark'>
@@ -246,13 +246,13 @@ code {
         <tr class='light'>
           <td align='center'>148</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/1927/problem/C'>C - Choose the Different Ones!</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/1927/submission/245152494'>1000</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1927/submission/245294548'>1000</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>greedy</code> <code>math</code></div></td>
         </tr>
         <tr class='dark'>
           <td align='center'>147</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/1927/problem/D'>D - Find the Different Ones!</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/1927/submission/245188700'>1300</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1927/submission/245241622'>1300</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>binary search</code> <code>brute force</code> <code>data structures</code> <code>dp</code> <code>dsu</code> <code>greedy</code> <code>two pointers</code></div></td>
         </tr>
         <tr class='light'>
@@ -321,13 +321,13 @@ code {
         <tr class='light'>
           <td align='center'>136</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/1918/problem/B'>B - Minimize Inversions</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/1918/submission/244481616'>900</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1918/submission/244485275'>900</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>constructive algorithms</code> <code>data structures</code> <code>greedy</code> <code>implementation</code> <code>sortings</code></div></td>
         </tr>
         <tr class='dark'>
           <td align='center'>135</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/1918/problem/C'>C - XOR-distance</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/1918/submission/244620169'>1400</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1918/submission/244623979'>1400</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>bitmasks</code> <code>greedy</code> <code>implementation</code> <code>math</code></div></td>
         </tr>
         <tr class='light'>
@@ -389,13 +389,13 @@ code {
         <tr class='dark'>
           <td align='center'>125</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/1914/problem/E1'>E1 - Game with Marbles (Easy Version)</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/1914/submission/238429721'>1400</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1914/submission/238431016'>1400</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>games</code> <code>greedy</code> <code>sortings</code></div></td>
         </tr>
         <tr class='light'>
           <td align='center'>124</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/1914/problem/E2'>E2 - Game with Marbles (Hard Version)</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/1914/submission/238429996'>1400</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1914/submission/238431093'>1400</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>games</code> <code>greedy</code> <code>sortings</code></div></td>
         </tr>
         <tr class='dark'>
@@ -414,7 +414,7 @@ code {
         <tr class='dark'>
           <td align='center'>121</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/1913/problem/C'>C - Game with Multiset</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/1913/submission/239425668'>1300</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1913/submission/239425849'>1300</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>binary search</code> <code>bitmasks</code> <code>brute force</code> <code>greedy</code></div></td>
         </tr>
         <tr class='light'>
@@ -445,21 +445,21 @@ code {
         <tr class='light'>
           <td align='center'>116</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/1907/problem/E'>E - Good Triples</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/1907/submission/236122722'>1600</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1907/submission/236122759'>1600</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>combinatorics</code> <code>number theory</code></div></td>
         </tr>
         <tr class='dark'>
           <td align='center'>115</td>
           <td rowspan='1' align='center'>1905</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/1905/problem/C'>C - Largest Subsequence</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/1905/submission/248786499'>?</a></td>
-          <td align='center'><div style='display: flex; justify-content: center;'></div></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1905/submission/248788111'>1400</a></td>
+          <td align='center'><div style='display: flex; justify-content: center;'><code>greedy</code> <code>strings</code></div></td>
         </tr>
         <tr class='light'>
           <td align='center'>114</td>
           <td rowspan='1' align='center'>1903</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/1903/problem/C'>C - Theofanis' Nightmare</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/1903/submission/245757970'>1400</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1903/submission/245758776'>1400</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>constructive algorithms</code> <code>greedy</code></div></td>
         </tr>
         <tr class='dark'>
@@ -497,13 +497,13 @@ code {
           <td align='center'>108</td>
           <td rowspan='3' align='center'>1898</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/1898/problem/A'>A - Milica and String</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/1898/submission/233748249'>800</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1898/submission/233762725'>800</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>implementation</code> <code>strings</code></div></td>
         </tr>
         <tr class='dark'>
           <td align='center'>107</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/1898/problem/B'>B - Milena and Admirer</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/1898/submission/233764557'>1500</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1898/submission/233765327'>1500</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>greedy</code> <code>math</code></div></td>
         </tr>
         <tr class='light'>
@@ -664,7 +664,7 @@ code {
           <td align='center'>82</td>
           <td rowspan='1' align='center'>1833</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/1833/problem/D'>D - Flipper</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/1833/submission/247810954'>1400</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1833/submission/247812796'>1400</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>constructive algorithms</code> <code>greedy</code></div></td>
         </tr>
         <tr class='dark'>
@@ -702,7 +702,7 @@ code {
         <tr class='light'>
           <td align='center'>76</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/1807/problem/F'>F - Bouncy Ball</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/1807/submission/249179259'>1700</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1807/submission/249183326'>1700</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>dfs and similar</code> <code>implementation</code></div></td>
         </tr>
         <tr class='dark'>
@@ -721,7 +721,7 @@ code {
         <tr class='dark'>
           <td align='center'>73</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/1790/problem/C'>C - Premutation</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/1790/submission/190892218'>1000</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1790/submission/191018407'>1000</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>implementation</code> <code>math</code></div></td>
         </tr>
         <tr class='light'>
@@ -779,7 +779,7 @@ code {
         <tr class='light'>
           <td align='center'>64</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/1749/problem/C'>C - Number Game</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/1749/submission/249026484'>1400</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1749/submission/249030501'>1400</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>binary search</code> <code>data structures</code> <code>games</code> <code>greedy</code> <code>implementation</code></div></td>
         </tr>
         <tr class='dark'>
@@ -813,7 +813,7 @@ code {
           <td align='center'>59</td>
           <td rowspan='1' align='center'>1598</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/1598/problem/C'>C - Delete Two Elements</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/1598/submission/241108377'>1200</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1598/submission/241108961'>1200</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>data structures</code> <code>dp</code> <code>implementation</code> <code>math</code> <code>two pointers</code></div></td>
         </tr>
         <tr class='light'>
@@ -826,7 +826,7 @@ code {
         <tr class='dark'>
           <td align='center'>57</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/1454/problem/B'>B - Unique Bid Auction</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/1454/submission/230626162'>800</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1454/submission/230729507'>800</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>implementation</code></div></td>
         </tr>
         <tr class='light'>
@@ -846,21 +846,21 @@ code {
           <td align='center'>54</td>
           <td rowspan='1' align='center'>1271</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/1271/problem/C'>C - Shawarma Tent</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/1271/submission/230933111'>1300</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1271/submission/230934822'>1300</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>geometry</code> <code>greedy</code> <code>implementation</code></div></td>
         </tr>
         <tr class='dark'>
           <td align='center'>53</td>
           <td rowspan='1' align='center'>1270</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/1270/problem/B'>B - Interesting Subarray</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/1270/submission/207715917'>1200</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1270/submission/207718016'>1200</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>constructive algorithms</code> <code>greedy</code> <code>math</code></div></td>
         </tr>
         <tr class='light'>
           <td align='center'>52</td>
           <td rowspan='1' align='center'>1203</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/1203/problem/C'>C - Common Divisors</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/1203/submission/190248406'>1300</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1203/submission/216609915'>1300</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>implementation</code> <code>math</code></div></td>
         </tr>
         <tr class='dark'>
@@ -943,7 +943,7 @@ code {
           <td align='center'>40</td>
           <td rowspan='1' align='center'>892</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/892/problem/C'>C - Pride</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/892/submission/229941691'>1500</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/892/submission/229941838'>1500</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>greedy</code></div></td>
         </tr>
         <tr class='dark'>
@@ -978,7 +978,7 @@ code {
           <td align='center'>35</td>
           <td rowspan='1' align='center'>822</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/822/problem/A'>A - I'm bored with life</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/822/submission/190144715'>800</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/822/submission/216601790'>800</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>implementation</code> <code>math</code> <code>number theory</code></div></td>
         </tr>
         <tr class='light'>
@@ -999,7 +999,7 @@ code {
           <td align='center'>32</td>
           <td rowspan='1' align='center'>755</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/755/problem/A'>A - PolandBall and Hypothesis</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/755/submission/190144724'>800</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/755/submission/216604074'>800</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>graphs</code> <code>math</code> <code>number theory</code></div></td>
         </tr>
         <tr class='dark'>
@@ -1097,7 +1097,7 @@ code {
           <td align='center'>18</td>
           <td rowspan='1' align='center'>304</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/304/problem/A'>A - Pythagorean Theorem II</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/304/submission/229946412'>1200</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/304/submission/229957576'>1200</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>math</code></div></td>
         </tr>
         <tr class='dark'>
@@ -1111,7 +1111,7 @@ code {
           <td align='center'>16</td>
           <td rowspan='1' align='center'>271</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/271/problem/A'>A - Beautiful Year</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/271/submission/229643835'>800</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/271/submission/229646338'>800</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code></div></td>
         </tr>
         <tr class='dark'>
@@ -1124,7 +1124,7 @@ code {
         <tr class='light'>
           <td align='center'>14</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/252/problem/B'>B - Unsorting Array</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/252/submission/230920528'>1800</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/252/submission/230927375'>1800</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>sortings</code></div></td>
         </tr>
         <tr class='dark'>
@@ -1152,7 +1152,7 @@ code {
           <td align='center'>10</td>
           <td rowspan='1' align='center'>126</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/126/problem/A'>A - Hot Bath</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/126/submission/229629951'>1900</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/126/submission/229630183'>1900</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>binary search</code> <code>brute force</code> <code>math</code></div></td>
         </tr>
         <tr class='dark'>
@@ -1187,7 +1187,7 @@ code {
           <td align='center'>5</td>
           <td rowspan='3' align='center'>4</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/4/problem/A'>A - Watermelon</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/4/submission/204295632'>800</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/4/submission/244760694'>800</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>brute force</code> <code>math</code></div></td>
         </tr>
         <tr class='light'>
