@@ -4358,5 +4358,20 @@
       "math"
     ],
     "timestamp": "Mar/08/2024 13:56"
+  },
+  "CF250739819": {
+    "contest_id": 1941,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces\\1941\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Rudolf and the Ball Game",
+    "problem_url": "https://codeforces.com/contest/1941/problem/D",
+    "submission_id": "CF250739819",
+    "submission_url": "https://codeforces.com/contest/1941/submission/250739819",
+    "tags": [
+      "implementation"
+    ],
+    "timestamp": "Mar/11/2024 10:30"
   }
 }
