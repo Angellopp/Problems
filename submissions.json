@@ -4359,6 +4359,23 @@
     ],
     "timestamp": "Mar/08/2024 13:56"
   },
+  "CF250678173": {
+    "contest_id": 1941,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces\\1941\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Rudolf and the Ticket",
+    "problem_url": "https://codeforces.com/contest/1941/problem/A",
+    "submission_id": "CF250678173",
+    "submission_url": "https://codeforces.com/contest/1941/submission/250678173",
+    "tags": [
+      "math",
+      "sortings",
+      "two pointers"
+    ],
+    "timestamp": "Mar/11/2024 09:51"
+  },
   "CF250684156": {
     "contest_id": 1941,
     "language": "C++17 (GCC 7-32)",
