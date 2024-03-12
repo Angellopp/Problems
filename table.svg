@@ -94,7 +94,7 @@ code {
         <tr class='light'>
           <td align='center'>177</td>
           <td class='name' align='left'><a href='https://codeforces.com/contest/1941/problem/E'>E - Rudolf and k Bridges</a></td>
-          <td align='center'><a class='solution' href='https://codeforces.com/contest/1941/submission/250978766'>?</a></td>
+          <td align='center'><a class='solution' href='https://codeforces.com/contest/1941/submission/250985577'>?</a></td>
           <td align='center'><div style='display: flex; justify-content: center;'><code>binary search</code> <code>data structures</code> <code>dp</code> <code>two pointers</code></div></td>
         </tr>
         <tr class='dark'>

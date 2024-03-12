@@ -20,33 +20,28 @@ int main() {
         cin >> n >> m >> k >> d;
 
         vector<vector<int>> a(n + 1, vector<int>(m + 1));
-        for (int i = 1; i <= n; i++) {
-                for (int j = 1; j <= m; j++) {
-                        cin >> a[i][j];
-                }
-        }
+        for (int i = 1; i <= n; i++)
+            for (int j = 1; j <= m; j++) 
+                cin >> a[i][j];
 
         vector<ll> cost(n + 1);
         for (int i = 1; i <= n; i++) {
-                deque<pair<ll, ll>> dq;
-                dq.push_back({1, 1});
-                for (int j = 2; j <= m; j++) {
-                        if (dq.front().F < j - d - 1) dq.pop_front();
-
-                        while (dq.back().S >= dq.front().S + a[i][j] + 1) {
-                                dq.pop_back();
-                        }
-
-                        dq.push_back({j, dq.front().S + a[i][j] + 1});
-                        if (j == m) cost[i] = dq.back().S;
-                }
+            multiset <ll> ms;
+            vector <ll> dp(m);
+            ms.insert(1);
+            dp[0] = 1;
+            for (int j = 2; j < m; j++) {
+                dp[j-1] = *ms.begin() + a[i][j] + 1;
+                if (j - d - 2 >= 0) 
+                    ms.erase(ms.find(dp[j - d - 2]));
+                ms.insert(dp[j-1]);
+            }
+            dp.back() = *ms.begin() + 1;
+            cost[i] = dp.back();
         }
-
         for (int i = 1; i <= n; i++) cost[i] += cost[i - 1];
-
         ll ans = INF;
         for (int i = k; i <= n; i++) ans = min(ans, cost[i] - cost[i - k]);
-
         cout << ans << '\n';
 }
     return 0;
