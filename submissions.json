@@ -4476,6 +4476,24 @@
     ],
     "timestamp": "Mar/12/2024 12:44"
   },
+  "CF251172974": {
+    "contest_id": 1798,
+    "language": "C++17 (GCC 7-32)",
+    "path": "codeforces\\1798\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Shocking Arrangement",
+    "problem_url": "https://codeforces.com/contest/1798/problem/D",
+    "submission_id": "CF251172974",
+    "submission_url": "https://codeforces.com/contest/1798/submission/251172974",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Mar/13/2024 21:03"
+  },
   "CF251173006": {
     "contest_id": 1798,
     "language": "C++17 (GCC 7-32)",

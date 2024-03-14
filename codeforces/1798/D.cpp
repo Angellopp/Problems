@@ -13,8 +13,8 @@ int main() {
     fast_io;
     int tt;
     cin >> tt;
-    vector <int> pos, neg, ans;
     while (tt--) {
+        vector <int> pos, neg, ans;
         int n, aux;
         cin >> n;
         for (int i = 0; i < n; i++) {
@@ -36,9 +36,6 @@ int main() {
         }
         if (can) {cout << "Yes" << nn; printv(ans, ans.size());}
         else cout << "No" << nn;
-        pos.clear();
-        neg.clear();
-        ans.clear();
     }
     return 0;
 }
