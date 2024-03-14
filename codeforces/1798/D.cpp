@@ -22,7 +22,8 @@ int main() {
             if (aux >= 0) pos.emplace_back(aux);
             else neg.emplace_back(aux);
         }
-        sort(pos.begin(), pos.end()), sort(neg.begin(), neg.end());
+        sort(pos.begin(), pos.end());
+        sort(neg.begin(), neg.end());
         bool can = neg.size();
         int ii = 0, jj = 1;
         if (can) {
@@ -32,8 +33,8 @@ int main() {
                 if (cur < 0) ans.emplace_back(pos[ii]), cur += pos[ii++];
                 else ans.emplace_back(neg[jj]), cur += neg[jj++];
             }
-            cout << "Yes" << nn; printv(ans, ans.size());
         }
+        if (can) {cout << "Yes" << nn; printv(ans, ans.size());}
         else cout << "No" << nn;
         pos.clear();
         neg.clear();
