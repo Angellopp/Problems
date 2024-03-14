@@ -13,7 +13,7 @@ int main() {
     fast_io;
     int tt;
     cin >> tt;
-    vector <int> pos, neg, ans;
+    vector <int> pos, neg, cer;
     while (tt--) {
         int n, aux;
         cin >> n;
@@ -21,32 +21,54 @@ int main() {
             cin >> aux;
             if (aux >= 0) pos.emplace_back(aux);
             else neg.emplace_back(aux);
+            // else cer.emplace_back(aux);
         }
         sort(pos.begin(), pos.end());
         sort(neg.begin(), neg.end());
-        bool can = neg.size();
-        int ii = 0, jj = 1, cur;
-        if (can) {
-            cur = neg[0];
-            ans.emplace_back(neg[0]);
-            while (true) {
-                if (cur < 0) {
-                    if(ii == pos.size()) break;
+
+        // printv(pos, pos.size());
+        // printv(neg, neg.size());
+        if (neg.size() == 0) {
+            cout << "No" << nn;
+            pos.clear();
+            neg.clear();
+            cer.clear();
+            continue;
+        }
+        vector <int> ans;
+        int cur = neg[0];
+        ans.emplace_back(neg[0]);
+        int ii = 0, jj = 1;
+        bool can = 1;
+        while (true) {
+            if (cur < 0) {
+                if(ii < pos.size()) {
                     ans.emplace_back(pos[ii]);
                     cur += pos[ii++];
+                    
                 }
                 else {
-                    if (jj == neg.size()) break;
+                    // can = 0;
+                    break;
+                }
+            }
+            else {
+                if(jj < neg.size()) {
                     ans.emplace_back(neg[jj]);
                     cur += neg[jj++];
                 }
+                else {
+                    // can = 0;
+                    break;
+                }
             }
         }
-        if (ans.size() == n and can) {cout << "Yes" << nn; printv(ans, ans.size());}
+        if (ans.size() == n) {cout << "Yes" << nn; printv(ans, ans.size());}
         else cout << "No" << nn;
         pos.clear();
         neg.clear();
-        ans.clear();
+        cer.clear();
+
     }
     return 0;
 }
