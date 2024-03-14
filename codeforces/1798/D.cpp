@@ -23,8 +23,11 @@ int main() {
             else neg.emplace_back(aux);
         }
         sort(pos.begin(), pos.end()), sort(neg.begin(), neg.end());
-        if (neg.size()) {
-            int ii = 0, jj = 0, cur = 0;
+        bool can = neg.size();
+        int ii = 0, jj = 1;
+        if (can) {
+            int cur = neg[0];
+            ans.emplace_back(neg[0]);
             while (ii != pos.size() or jj != neg.size()) {
                 if (cur < 0) ans.emplace_back(pos[ii]), cur += pos[ii++];
                 else ans.emplace_back(neg[jj]), cur += neg[jj++];
