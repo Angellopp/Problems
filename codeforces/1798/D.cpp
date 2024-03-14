@@ -13,8 +13,8 @@ int main() {
     fast_io;
     int tt;
     cin >> tt;
+    vector <int> pos, neg, ans;
     while (tt--) {
-        vector <int> pos, neg, ans;
         int n, aux;
         cin >> n;
         for (int i = 0; i < n; i++) {
@@ -25,17 +25,28 @@ int main() {
         sort(pos.begin(), pos.end());
         sort(neg.begin(), neg.end());
         bool can = neg.size();
-        int ii = 0, jj = 1;
+        int ii = 0, jj = 1, cur;
         if (can) {
-            int cur = neg[0];
+            cur = neg[0];
             ans.emplace_back(neg[0]);
-            while (ii != pos.size() or jj != neg.size()) {
-                if (cur < 0) ans.emplace_back(pos[ii]), cur += pos[ii++];
-                else ans.emplace_back(neg[jj]), cur += neg[jj++];
+            while (true) {
+                if (cur < 0) {
+                    if(ii == pos.size()) break;
+                    ans.emplace_back(pos[ii]);
+                    cur += pos[ii++];
+                }
+                else {
+                    if (jj == neg.size()) break;
+                    ans.emplace_back(neg[jj]);
+                    cur += neg[jj++];
+                }
             }
         }
-        if (can) {cout << "Yes" << nn; printv(ans, ans.size());}
+        if (ans.size() == n and can) {cout << "Yes" << nn; printv(ans, ans.size());}
         else cout << "No" << nn;
+        pos.clear();
+        neg.clear();
+        ans.clear();
     }
     return 0;
 }
